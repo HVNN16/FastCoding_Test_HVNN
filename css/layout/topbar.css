@@ -1,0 +1,37 @@
+.top-bar {
+    background: #061c22;
+    color: #fff;
+    font-size: 13px;
+}
+
+.top-bar-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 36px;
+}
+
+.top-left {
+    display: flex;
+    gap: 30px;
+}
+
+.top-left span {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.top-right {
+    display: flex;
+    gap: 15px;
+}
+
+.top-right a {
+    color: #fff;
+    transition: .3s;
+}
+
+.top-right a:hover {
+    color: #ff5a43;
+}

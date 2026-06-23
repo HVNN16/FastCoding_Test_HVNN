@@ -38,6 +38,7 @@
     background: #ff5a43;
     color: #fff;
     transform: translateY(-12px);
+    border-radius: 10px;
 }
 
 .featured-type .icon {

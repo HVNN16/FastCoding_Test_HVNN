@@ -5,10 +5,11 @@ body {
 }
 
 .eyebrow {
-    font-size: 13px;
-    color: #ff5a43;
+    font-size: 35px;
+    color: black;
     font-weight: 600;
     margin: 0 0 10px;
+    
 }
 
 h1 {
