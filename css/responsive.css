@@ -1,0 +1,189 @@
+/* Responsive */
+@media (max-width: 900px) {
+    h1 {
+        font-size: 42px;
+    }
+
+    .nav {
+        position: absolute;
+        top: 72px;
+        left: 0;
+        right: 0;
+        background: #fff;
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 22px 5%;
+        box-shadow: 0 12px 30px rgba(0, 0, 0, .08);
+    }
+
+    .menu-toggle:checked ~ .nav {
+        display: flex;
+    }
+
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .hamburger span {
+        width: 26px;
+        height: 2px;
+        background: #14212b;
+    }
+
+    .hero-grid,
+    .two-col,
+    .testi-wrap {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-media {
+        min-height: 420px;
+    }
+
+    .hero-box {
+        width: 100%;
+        height: 380px;
+    }
+
+    .price-card {
+        left: 20px;
+        top: 220px;
+    }
+
+    .search-pill {
+        bottom: 40px;
+    }
+
+    .type-cards,
+    .services-grid,
+    .property-grid,
+    .blog-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .section-head {
+        display: block;
+    }
+
+    .gallery-grid {
+        height: 340px;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contact-shape {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .section {
+        padding: 58px 0;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    .hero {
+        padding: 45px 0 60px;
+    }
+
+    .hero-grid {
+        gap: 25px;
+    }
+
+    .hero-media {
+        min-height: 330px;
+    }
+
+    .hero-box {
+        height: 300px;
+    }
+
+    .arrow-mark {
+        display: none;
+    }
+
+    .price-card {
+        top: 175px;
+    }
+
+    .type-cards,
+    .services-grid,
+    .property-grid,
+    .blog-grid,
+    .project-boxes {
+        grid-template-columns: 1fr;
+    }
+
+    .featured-type {
+        transform: none;
+    }
+
+    .reverse-mobile > div:first-child {
+        order: 2;
+    }
+
+    .section-head {
+        margin-bottom: 25px;
+    }
+
+    .filter-tabs {
+        gap: 22px;
+        margin-top: 20px;
+    }
+
+    .wide-banner {
+        height: 230px;
+    }
+
+    .round-badge {
+        left: 8%;
+    }
+
+    .testi-wrap {
+        gap: 40px;
+    }
+
+    .testi-img {
+        height: 230px;
+    }
+
+    .subscribe {
+        flex-direction: column;
+    }
+
+    .subscribe input {
+        width: 100%;
+    }
+
+    .subscribe .btn {
+        width: 100%;
+    }
+
+    .contact-form {
+        padding: 26px;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-bottom {
+        display: block;
+    }
+
+    .mini-tabs {
+        margin-top: 38px;
+    }
+}

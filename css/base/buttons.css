@@ -1,0 +1,27 @@
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    background: #ff5a43;
+    color: #fff;
+    border-radius: 4px;
+    padding: 14px 24px;
+    font-size: 14px;
+    font-weight: 600;
+    box-shadow: 0 8px 18px rgba(255, 90, 67, .18);
+}
+
+.btn-sm {
+    padding: 10px 17px;
+    font-size: 13px;
+}
+
+.outline-btn {
+    display: inline-block;
+    color: #ff5a43;
+    border-bottom: 2px solid #ff5a43;
+    padding: 12px 8px;
+    font-size: 14px;
+    font-weight: 600;
+}

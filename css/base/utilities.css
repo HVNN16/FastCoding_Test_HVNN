@@ -1,0 +1,60 @@
+.section {
+    padding: 86px 0;
+}
+
+.section-soft {
+    background: #f2f8fa;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.image-box {
+    background: #c9c9c9;
+    border-radius: 1px;
+    min-height: 160px;
+}
+
+.narrow {
+    max-width: 760px;
+}
+
+.two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+    align-items: center;
+}
+
+.check-list {
+    list-style: none;
+    padding: 0;
+    margin: 22px 0;
+}
+
+.check-list li {
+    position: relative;
+    padding-left: 24px;
+    margin: 12px 0;
+    color: #65727e;
+    font-size: 14px;
+}
+
+.check-list li:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 7px;
+    width: 8px;
+    height: 8px;
+    background: #ff5a43;
+}
