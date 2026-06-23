@@ -1,0 +1,20 @@
+/* Services */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 880px;
+    margin: auto;
+}
+
+.service-card {
+    background: #fff;
+    padding: 38px 24px;
+    border-radius: 4px;
+    box-shadow: 0 16px 40px rgba(20, 33, 43, .04);
+}
+
+.service-card a {
+    font-size: 12px;
+    font-weight: 700;
+}
