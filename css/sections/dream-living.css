@@ -1,0 +1,55 @@
+.image-stack {
+    position: relative;
+    min-height: 470px;
+}
+
+.image-stack .tall {
+    width: 78%;
+    height: 430px;
+    margin-top: 40px;
+}
+
+.small-card {
+    position: absolute;
+    right: 55px;
+    top: 0;
+    width: 105px;
+    min-height: 115px;
+    background: #182531;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-card span {
+    color: #ff5a43;
+}
+
+.content-list {
+    max-width: 490px;
+}
+
+.list-item {
+    display: flex;
+    gap: 18px;
+    margin-top: 26px;
+}
+
+.list-item > span {
+    color: #ff5a43;
+    font-size: 25px;
+}
+
+.list-item h4 {
+    margin: 0 0 6px;
+    font-size: 17px;
+}
+
+.list-item p {
+    margin: 0;
+    color: #73818c;
+    font-size: 13px;
+    line-height: 1.6;
+}
