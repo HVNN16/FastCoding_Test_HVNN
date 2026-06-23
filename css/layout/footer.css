@@ -9,6 +9,11 @@
     grid-template-columns: 1.6fr .8fr .8fr .8fr 1.4fr;
     gap: 35px;
 }
+.social {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
 
 .footer p,
 .footer a {

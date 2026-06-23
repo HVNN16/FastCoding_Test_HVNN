@@ -1,9 +1,13 @@
-/* Responsive */
+/* =====================================
+   TABLET
+===================================== */
 @media (max-width: 900px) {
+
     h1 {
         font-size: 42px;
     }
 
+    /* Header */
     .nav {
         position: absolute;
         top: 72px;
@@ -14,7 +18,8 @@
         flex-direction: column;
         align-items: flex-start;
         padding: 22px 5%;
-        box-shadow: 0 12px 30px rgba(0, 0, 0, .08);
+        box-shadow: 0 12px 30px rgba(0,0,0,.08);
+        z-index: 999;
     }
 
     .menu-toggle:checked ~ .nav {
@@ -33,9 +38,11 @@
         background: #14212b;
     }
 
+    /* Layout */
     .hero-grid,
     .two-col,
-    .testi-wrap {
+    .testi-wrap,
+    .contact-grid {
         grid-template-columns: 1fr;
     }
 
@@ -61,7 +68,7 @@
     .services-grid,
     .property-grid,
     .blog-grid {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .section-head {
@@ -73,15 +80,107 @@
     }
 
     .footer-grid {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .contact-shape {
         width: 100%;
+        max-width: 420px;
+        height: 210px;
+    }
+
+    .contact-form {
+        width: 100%;
     }
 }
 
+
+/* =====================================
+   MOBILE
+===================================== */
+@media (max-width: 768px) {
+
+    /* ---------- TOP BAR ---------- */
+
+    .top-bar {
+        height: 34px;
+        padding: 0;
+        background: #061c22;
+        overflow: hidden;
+    }
+
+    .top-bar-wrap {
+        height: 34px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .top-left {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+        font-size: 13px;
+    }
+
+    .top-left span:not(:first-child) {
+        display: none;
+    }
+
+    .top-right {
+        display: none;
+    }
+
+    .top-left span:first-child {
+        color: #fff;
+        white-space: nowrap;
+    }
+
+    /* ---------- CONTACT ---------- */
+
+    .contact {
+        overflow: hidden;
+        padding-top: 60px;
+    }
+
+    .contact-title {
+        font-size: 34px;
+        line-height: 1.25;
+        margin-bottom: 35px;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .contact-info .text {
+        max-width: 100%;
+        line-height: 1.8;
+    }
+
+    .contact-list li {
+        line-height: 1.6;
+    }
+
+    .contact-form {
+        width: 100%;
+        padding: 30px 24px;
+    }
+
+    .contact-form h3 {
+        font-size: 32px;
+    }
+}
+
+
+/* =====================================
+   SMALL MOBILE
+===================================== */
 @media (max-width: 600px) {
+
     .section {
         padding: 58px 0;
     }
@@ -93,6 +192,8 @@
     h2 {
         font-size: 26px;
     }
+
+    /* Hero */
 
     .hero {
         padding: 45px 0 60px;
@@ -117,6 +218,8 @@
     .price-card {
         top: 175px;
     }
+
+    /* Grids */
 
     .type-cards,
     .services-grid,
@@ -143,6 +246,8 @@
         margin-top: 20px;
     }
 
+    /* Banner */
+
     .wide-banner {
         height: 230px;
     }
@@ -150,6 +255,8 @@
     .round-badge {
         left: 8%;
     }
+
+    /* Testimonial */
 
     .testi-wrap {
         gap: 40px;
@@ -159,21 +266,41 @@
         height: 230px;
     }
 
+    /* Subscribe */
+
     .subscribe {
         flex-direction: column;
     }
 
-    .subscribe input {
-        width: 100%;
-    }
-
+    .subscribe input,
     .subscribe .btn {
         width: 100%;
     }
 
-    .contact-form {
-        padding: 26px;
+    /* Contact */
+
+    .contact-title {
+        font-size: 30px;
     }
+
+    .contact-form {
+        padding: 24px;
+    }
+
+    .contact-form h3 {
+        font-size: 28px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 14px;
+    }
+
+    .contact-shape {
+        height: 180px;
+    }
+
+    /* Footer */
 
     .footer-grid {
         grid-template-columns: 1fr;
@@ -181,6 +308,7 @@
 
     .footer-bottom {
         display: block;
+        text-align: center;
     }
 
     .mini-tabs {
