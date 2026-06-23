@@ -54,18 +54,33 @@
 .search-pill {
     position: absolute;
     right: 0;
-    bottom: 92px;
+    bottom: 25px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    border: none;
+    cursor: pointer;
+
     background: #ff5a43;
     color: #fff;
+
     border-radius: 3px;
-    padding: 13px 16px;
+    padding: 13px 20px;
+
     font-size: 13px;
+    font-weight: 600;
+}
+
+.search-pill b {
+    font-size: 16px;
 }
 
 .arrow-mark {
     position: absolute;
-    left: 0;
-    top: 210px;
+    left: -150px;
+    top: 150px;
     color: #ff5a43;
     font-size: 72px;
     transform: rotate(25deg);
