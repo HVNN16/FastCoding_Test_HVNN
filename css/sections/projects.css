@@ -1,0 +1,30 @@
+/* Projects */
+.project-boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    margin: 30px 0 36px;
+}
+
+.project-boxes div {
+    background: #8b8b8b;
+    color: #fff;
+    border-radius: 4px;
+    padding: 22px;
+}
+
+.project-boxes span {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.project-boxes a {
+    display: inline-block;
+    background: #fff;
+    color: #ff5a43;
+    border-radius: 3px;
+    padding: 8px 18px;
+    font-size: 12px;
+    font-weight: 700;
+}

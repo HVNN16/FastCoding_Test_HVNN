@@ -1,0 +1,46 @@
+.wide-banner {
+    height: 310px;
+    background: #c9c9c9;
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+
+.deal-card {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    background: #fff;
+    border-radius: 9px;
+    padding: 16px;
+    box-shadow: 0 22px 45px rgba(0, 0, 0, .14);
+}
+
+.deal-card .thumb {
+    width: 62px;
+    height: 48px;
+    background: linear-gradient(#7cc47e, #eee);
+    border-radius: 4px;
+}
+
+.deal-card span,
+.deal-card small {
+    display: block;
+    color: #7b8790;
+    font-size: 12px;
+}
+
+.round-badge {
+    position: absolute;
+    left: 22%;
+    bottom: -26px;
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    background: #ff5a43;
+    color: #fff;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    font-size: 12px;
+}

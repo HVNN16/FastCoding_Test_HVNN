@@ -1,0 +1,13 @@
+/* Subscribe */
+.subscribe {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+}
+
+.subscribe input {
+    width: 340px;
+    border: 0;
+    background: #f3f4f5;
+    padding: 16px;
+}

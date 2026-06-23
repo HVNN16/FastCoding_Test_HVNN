@@ -1,0 +1,38 @@
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+    text-align: left;
+}
+
+.blog-card {
+    box-shadow: 0 16px 40px rgba(20, 33, 43, .07);
+    padding-bottom: 20px;
+}
+
+.blog-card .image-box {
+    height: 190px;
+}
+
+.blog-card h3,
+.blog-card p,
+.blog-card a {
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.blog-card h3 {
+    margin-top: 18px;
+}
+
+.blog-card p {
+    font-size: 13px;
+    color: #75818c;
+    line-height: 1.7;
+}
+
+.blog-card a {
+    color: #ff5a43;
+    font-size: 13px;
+    font-weight: 700;
+}

@@ -1,0 +1,38 @@
+/* Testimonial */
+.testi-wrap {
+    display: grid;
+    grid-template-columns: .8fr 1fr;
+    gap: 70px;
+    align-items: center;
+    max-width: 780px;
+    margin: 55px auto 0;
+    text-align: left;
+}
+
+.testi-img {
+    height: 290px;
+    background: #c9c9c9;
+    border-radius: 3px;
+    box-shadow: -18px 18px 0 #ff5a43;
+}
+
+.quote {
+    font-size: 70px;
+    color: #ff5a43;
+    height: 48px;
+}
+
+.testi-text p {
+    line-height: 1.8;
+    color: #5f6c78;
+}
+
+.stars {
+    color: #ff5a43;
+    margin: 20px 0;
+}
+
+.testi-text small {
+    display: block;
+    color: #89949d;
+}

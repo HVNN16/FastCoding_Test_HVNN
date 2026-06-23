@@ -13,17 +13,26 @@
   <link rel="stylesheet" href="./css/base/utilities.css" />
   <link rel="stylesheet" href="./css/layout/container.css" />
   <link rel="stylesheet" href="./css/layout/header.css" />
+  <link rel="stylesheet" href="./css/sections/hero.css" />
+  <link rel="stylesheet" href="./css/sections/property-types.css" />
+  <link rel="stylesheet" href="./css/sections/dream-living.css" />
+  <link rel="stylesheet" href="./css/sections/featured-property.css" />
+  <link rel="stylesheet" href="./css/sections/services.css" />
+  <link rel="stylesheet" href="./css/sections/property-list.css" />
+  <link rel="stylesheet" href="./css/sections/deal-banner.css" />
+  <link rel="stylesheet" href="./css/sections/testimonial.css" />
+  <link rel="stylesheet" href="./css/sections/projects.css" />
+  <link rel="stylesheet" href="./css/sections/subscribe.css" />
+  <link rel="stylesheet" href="./css/sections/blog.css" />
+  <link rel="stylesheet" href="./css/sections/contact.css" />
   <link rel="stylesheet" href="./css/layout/footer.css" />
   <link rel="stylesheet" href="./css/responsive.css" />
-  <link rel="stylesheet" href="./css/sections/hero.css" />
-  <link rel="stylesheet" href="./css/sections/dream-living.css" />
-  <link rel="stylesheet" href="./css/sections/property-types.css" />
 </head>
 <body>
   <!-- Header -->
   <header class="header">
     <div class="container nav-wrap">
-      <a class="logo" href="#"><img src="./public/images/Logo.png" alt=""></a>
+      <a class="logo" href="#"><span class="logo-icon">⌂</span> Reanty.</a>
       <input type="checkbox" id="menu-toggle" class="menu-toggle">
       <label for="menu-toggle" class="hamburger"><span></span><span></span><span></span></label>
       <nav class="nav">
@@ -38,7 +47,8 @@
       </nav>
     </div>
   </header>
-<main>
+
+  <main>
     <!-- Hero -->
     <section class="hero section-soft">
       <div class="container hero-grid">
@@ -46,19 +56,18 @@
           <p class="eyebrow">Real Estate Agency</p>
           <h1>Find the best Real Estate on your country.</h1>
           <p class="text">With over 1 million homes for sale available on the website, we can match you with a house you will want to call home.</p>
-          <a class="btn" href="#featured">Start Membership ></a>
+          <a class="btn" href="#featured">Find Property</a>
           <div class="mini-tabs"><span></span><span></span><span></span></div>
         </div>
         <div class="hero-media">
           <div class="image-box hero-box"></div>
           <div class="price-card">
-            <span class="pin"> <img src="./public/images/increase1.png" alt=""></span>
+            <span class="pin">▥</span>
             <strong>$746.61</strong>
             <small>Price Range</small>
           </div>
-          <button class="search-pill">How It Works <b>→</b></button>
-          <!-- <div class="search-pill"><button> How It Works </button><b>→</b></div> -->
-          <div class="arrow-mark"> <img src="./public/images/vector.png" alt=""></div>
+          <div class="search-pill">Search now <b>→</b></div>
+          <div class="arrow-mark">⌒</div>
         </div>
       </div>
     </section>
@@ -105,6 +114,7 @@
         </div>
       </div>
     </section>
+
     <!-- Today Sells Properties -->
     <section class="section sells">
       <div class="container two-col reverse-mobile">
@@ -144,8 +154,88 @@
         </div>
       </div>
     </section>
-</main>
- 
+
+    <!-- Featured Property -->
+    <section id="featured" class="section featured">
+      <div class="container">
+        <div class="section-head">
+          <div><h2>Featured Property</h2><p class="lead left">These are the best properties from our latest collection.</p></div>
+          <div class="filter-tabs"><a class="active">Apartment</a><a>Villa</a><a>Land</a></div>
+        </div>
+        <div class="property-grid">
+          <article class="property-card"><div class="image-box"></div><div><h3>The Town Apartment</h3><p>New York, America</p><strong>$44,300</strong><button>→</button></div></article>
+          <article class="property-card"><div class="image-box"></div><div><h3>The Tree Apartment</h3><p>New York, America</p><strong>$21,900</strong><button>→</button></div></article>
+          <article class="property-card"><div class="image-box"></div><div><h3>The Police Apartment</h3><p>New York, America</p><strong>$22,700</strong><button>→</button></div></article>
+        </div>
+        <div class="center"><a class="outline-btn">Explore Property</a></div>
+      </div>
+    </section>
+
+    <!-- Wide Banner -->
+    <section class="wide-banner">
+      <div class="deal-card"><div class="thumb"></div><div><strong>$4,000</strong><span>Best deal</span><small>⭐ ⭐ ⭐ ⭐</small></div></div>
+      <div class="round-badge">First In<br><b>DA</b></div>
+    </section>
+
+    <!-- Testimonial -->
+    <section class="section testimonial center">
+      <div class="container">
+        <h2>What our customers are saying</h2>
+        <p class="lead">We build trust with customers by giving the best service.</p>
+        <div class="testi-wrap">
+          <div class="testi-img"></div>
+          <div class="testi-text"><div class="quote">“</div><p>You are amazing. Your service is good and your support team is very helpful. We really like the result.</p><div class="stars">★★★★★</div><strong>Yasin Das</strong><small>Happy customer</small></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section projects center">
+      <div class="container narrow">
+        <h2>We build more projects<br>successful</h2>
+        <div class="project-boxes"><div><span>12+</span><a>Learn more</a></div><div><span>24+</span><a>Learn more</a></div><div><span>35+</span><a>Learn more</a></div></div>
+        <form class="subscribe"><input type="email" placeholder="Enter your email address"><button class="btn">Subscribe</button></form>
+      </div>
+    </section>
+
+    <!-- Blog -->
+    <section id="news" class="section blog center">
+      <div class="container">
+        <h2>From our blog</h2>
+        <p class="lead">We provide news and article about real estate.</p>
+        <div class="blog-grid">
+          <article class="blog-card"><div class="image-box"></div><h3>How to find the property with...</h3><p>Find best tips when searching your home.</p><a>Read more →</a></article>
+          <article class="blog-card"><div class="image-box"></div><h3>Property is the best way now...</h3><p>Invest your money with the right place.</p><a>Read more →</a></article>
+          <article class="blog-card"><div class="image-box"></div><h3>The best real estate company...</h3><p>Our team provides useful real estate news.</p><a>Read more →</a></article>
+        </div>
+        <a class="outline-btn">View all</a>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact">
+      <div class="container two-col">
+        <div>
+          <p class="eyebrow center-text">Contact with us</p>
+          <h2>Looking For To Buy A Property?</h2>
+          <p class="text">There are many variations of passages available. Contact us and we will help you choose suitable property.</p>
+          <ul class="check-list">
+            <li>Best price for every customer</li>
+            <li>Professional property support</li>
+            <li>Fast and simple process</li>
+          </ul>
+          <div class="contact-shape"></div>
+        </div>
+        <form class="contact-form">
+          <h3>Contact Us</h3>
+          <label>Name<input type="text" placeholder="Your name"></label>
+          <label>Email<input type="email" placeholder="Your email"></label>
+          <label>Message<textarea placeholder="Your message"></textarea></label>
+          <button type="button" class="btn">Send</button>
+        </form>
+      </div>
+    </section>
+  </main>
 
   <!-- Footer -->
   <footer class="footer">
